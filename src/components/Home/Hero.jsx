@@ -9,7 +9,7 @@ const Hero = () => {
           <Image src="/hero.svg" alt="Hero Image" width={1002} height={1022} />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_50%,_#0B0527_75%)]" />
         </div>
-        <div className='md:absolute flex flex-col items-center gap-5 px-3 md:bottom-2 w-full'>
+        <div className='md:absolute flex flex-col items-center gap-5 px md:bottom-2 w-full'>
           <h2 className='text-center text-white md:text-[58px] text-[40px] font-medium md:leading-14 leading-10'>
             Sending money <span className='font-italic text-[#FED449]'>abroad</span> <br className='md:block hidden'/> just got cooler!
           </h2>

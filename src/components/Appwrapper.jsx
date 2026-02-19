@@ -9,7 +9,7 @@ const Appwrapper = ({ children }) => {
         <div className="min-h-screen">
             {children}
 
-            <footer className="fixed md:top-8 top-2 z-50 left-0 right-0">
+            <footer className="fixed md:top-4 top-2 z-50 left-0 right-0">
                 <div className="max-w-screen-lg mx-auto px-4">
                     <Navigation />
                 </div>

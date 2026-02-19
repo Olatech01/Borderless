@@ -36,3 +36,37 @@ export const data = [
         image: "/menu.svg"
     },
 ]
+
+
+export const faqs = [
+    {
+        id: 1,
+        question: "What is borderless?",
+        answer:
+            "Join paywall pup and integrate seamlessly into your website. Borderless gives you the tools to accept payments globally without friction, supporting multiple currencies and payment methods right out of the box.",
+    },
+    {
+        id: 2,
+        question: "What do I need to sign up?",
+        answer:
+            "You'll need a valid email address, a government-issued ID for compliance verification, and your business details. The entire signup process takes less than 10 minutes to complete.",
+    },
+    {
+        id: 3,
+        question: "How fast is onboarding?",
+        answer:
+            "Most accounts are fully verified and ready within 24 hours. Our automated compliance checks run in real time, so you can often start transacting the same day you sign up.",
+    },
+    {
+        id: 4,
+        question: "How many accounts can i create?",
+        answer:
+            "You can create up to 5 sub-accounts under a single business profile. Enterprise plans support unlimited accounts with consolidated reporting and billing.",
+    },
+    {
+        id: 5,
+        question: "What tech stack do you support?",
+        answer:
+            "We provide official SDKs for JavaScript/TypeScript, Python, PHP, Ruby, and Go. REST APIs and webhooks work with any backend. We also offer plug-and-play plugins for Shopify, WooCommerce, and Webflow.",
+    },
+];
