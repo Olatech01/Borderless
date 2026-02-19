@@ -7,9 +7,7 @@ export default function Personal() {
         <section className="relative overflow-hidden bg-[#6C47FF] min-h-[559px] md:pt-0 pt-8 flex justify-end items-end px-8 md:px-16 ">
             <div className="mx-auto flex w-[1200px] flex-col justify-end items-center gap-12 lg:flex-row lg:items-center lg:gap-16">
 
-                {/* ── Left Column ── */}
                 <div className="flex-1 text-white">
-                    {/* Heading */}
                     <h1 className="mb-4 text-[40px] font-bold leading-[1.12] tracking-tight md:text-5xl">
                         The future of{" "}
                         <span
@@ -22,14 +20,11 @@ export default function Personal() {
                         banking
                     </h1>
 
-                    {/* Subtext */}
                     <p className="mb-8 max-w-xs text-sm leading-relaxed text-white/75 md:text-base">
                         Go borderless on mobile! Download the app and signup to enjoy.
                     </p>
 
-                    {/* Store Buttons */}
                     <div className="mb-8 flex flex-wrap gap-3">
-                        {/* App Store */}
                         <a
                             href="#"
                             className="flex items-center gap-2.5 rounded-xl border-2 border-white bg-black px-4 py-2.5 transition hover:bg-gray-900"
@@ -47,7 +42,6 @@ export default function Personal() {
                             </div>
                         </a>
 
-                        {/* Google Play */}
                         <a
                             href="#"
                             className="flex items-center gap-2.5 rounded-xl border-2 border-white bg-black px-4 py-2.5 transition hover:bg-gray-900"
@@ -69,7 +63,6 @@ export default function Personal() {
                         </a>
                     </div>
 
-                    {/* Trust Badge */}
                     <div>
                         <p className="mb-1.5 text-sm text-white/80">
                             Trusted by{" "}
@@ -84,12 +77,9 @@ export default function Personal() {
                         </div>
                     </div>
                 </div>
-
                 <div className="flex flex-col items-end justify-end">
                     <Image height={840} width={403} src={"/money.svg"} alt="iiiiii"/>
-                   
                 </div>
-
             </div>
         </section>
     );

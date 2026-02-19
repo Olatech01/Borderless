@@ -70,3 +70,30 @@ export const faqs = [
             "We provide official SDKs for JavaScript/TypeScript, Python, PHP, Ruby, and Go. REST APIs and webhooks work with any backend. We also offer plug-and-play plugins for Shopify, WooCommerce, and Webflow.",
     },
 ];
+
+
+export const footerLinks = [
+    {
+        heading: "LEGAL",
+        links: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Use", href: "#" },
+        ],
+    },
+    {
+        heading: "PRODUCT",
+        links: [
+            { label: "Sign Up", href: "#" },
+            { label: "Log In", href: "#" },
+            { label: "Pricing", href: "#" },
+        ],
+    },
+    {
+        heading: "RESOURCES",
+        links: [
+            { label: "Docs", href: "#" },
+            { label: "FAQs / Support", href: "#" },
+            { label: "Contact us", href: "#" },
+        ],
+    },
+];

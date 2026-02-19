@@ -16,7 +16,6 @@ const Navigation = () => {
         { name: "Help", path: "/help" },
     ]
 
-    // Close menu when route changes
     useEffect(() => {
         setOpen(false)
     }, [pathname])
@@ -25,10 +24,8 @@ const Navigation = () => {
         <div className="w-full flex justify-center px-4 pt-6">
             <div className="w-full md:max-w-[888px] bg-white h-[70px] flex items-center justify-between px-4 rounded-[16px] relative">
 
-                {/* Logo */}
                 <Image height={38} width={58} src={"/logo.svg"} alt="logo" />
 
-                {/* Desktop Menu */}
                 <div className="hidden md:flex items-center gap-12">
                     {menu.map((item, index) => (
                         <Link
@@ -44,7 +41,6 @@ const Navigation = () => {
                     ))}
                 </div>
 
-                {/* Desktop Buttons */}
                 <div className="hidden md:flex gap-4">
                     <button className="border border-[#FAFAFA] text-[#B62619] text-[16px] font-semibold h-[38px] rounded-[12px] w-[80px]">
                         Login
@@ -54,7 +50,6 @@ const Navigation = () => {
                     </button>
                 </div>
 
-                {/* Mobile Toggle Button */}
                 <div className="md:hidden">
                     {open ? (
                         <HiX size={28} onClick={() => setOpen(false)} className="cursor-pointer" />
@@ -63,8 +58,7 @@ const Navigation = () => {
                     )}
                 </div>
 
-                {/* Mobile Dropdown */}
-                {open && (
+                    {open && (
                     <div className="absolute top-[80px] left-0 w-full bg-white rounded-[16px] shadow-lg p-6 flex flex-col gap-6 md:hidden">
 
                         {menu.map((item, index) => (

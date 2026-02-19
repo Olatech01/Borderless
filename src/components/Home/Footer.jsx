@@ -1,31 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { footerLinks } from "../constants/data";
 
-const footerLinks = [
-    {
-        heading: "LEGAL",
-        links: [
-            { label: "Privacy Policy", href: "#" },
-            { label: "Terms of Use", href: "#" },
-        ],
-    },
-    {
-        heading: "PRODUCT",
-        links: [
-            { label: "Sign Up", href: "#" },
-            { label: "Log In", href: "#" },
-            { label: "Pricing", href: "#" },
-        ],
-    },
-    {
-        heading: "RESOURCES",
-        links: [
-            { label: "Docs", href: "#" },
-            { label: "FAQs / Support", href: "#" },
-            { label: "Contact us", href: "#" },
-        ],
-    },
-];
+
 
 const Footer = () => {
     return (
